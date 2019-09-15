@@ -1,0 +1,52 @@
+body{
+    font-family: 'Manjari', sans-serif;
+    background-image: url('../img/tree_background.png');
+}
+
+.main{
+    background-color: darkgray;
+    width: 80%;
+    margin:  auto;
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.header{
+    background-color: darkgray;
+    width: 80%;
+    margin:  auto;
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 16px;
+    min-height: 100px;
+    vertical-align: middle;
+}
+
+.body{
+    background-color: darkgray;
+    width: 80%;
+    margin:  auto;
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 16px;
+    min-height: 50px;
+    margin-top: 50px;
+}
+
+.nameFloat{
+    float:left;
+    vertical-align: middle;
+}
+
+.self{
+    float:right;
+}
+
+img{
+    opacity: 1;
+    width: 100px;
+    border-radius: 50%;
+}
