@@ -14,18 +14,15 @@ body{
 
 .header{
     background-color: darkgray;
-    width: 80%;
-    margin:  auto;
-    padding-left: 16px;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    padding-right: 16px;
-    min-height: 100px;
-    vertical-align: middle;
+    margin: auto;
+    width: 90%;
+    height: 120px;
+    display: table;
+    
 }
 
 .body{
-    background-color: darkgray;
+    background:rgba(255,255,255,0.5);
     width: 80%;
     margin:  auto;
     padding-left: 16px;
@@ -36,17 +33,16 @@ body{
     margin-top: 50px;
 }
 
-.nameFloat{
-    float:left;
-    vertical-align: middle;
-}
-
 .self{
-    float:right;
-}
-
-img{
-    opacity: 1;
+    margin-left: 20px;
+    vertical-align: middle;
+    display: table-cell;
     width: 100px;
     border-radius: 50%;
+}
+
+.headerSpan{
+    vertical-align: middle;
+    display:table-cell;
+    width: 200px;
 }
